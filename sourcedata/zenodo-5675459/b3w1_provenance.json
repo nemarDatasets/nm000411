@@ -1,0 +1,304 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.5675459",
+  "files": [
+    {
+      "bids": "sub-01/ieeg/sub-01_task-ictal_ieeg.edf",
+      "source": "S1_ictal.edf",
+      "md5_zenodo": "b69a1192865194f4d65411cb1ae40ed7",
+      "sha256": "44b44487b69641efd5605cf09074ff43b66ecd217f6b571b1536ba22fb59e197",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 39804446,
+      "n_signals": 140,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-01/ieeg/sub-01_task-interictal_ieeg.edf",
+      "source": "S1_inter.edf",
+      "md5_zenodo": "5e822bbd3d2f239806eff488937d17d1",
+      "sha256": "2369b9ec4f0b763824fd212bf25b4756a465a8d3f234c870a12ad062a10b851b",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 4204872672,
+      "n_signals": 145,
+      "sfreq": 2000.0,
+      "duration_s": 7200.0599999999995
+    },
+    {
+      "bids": "sub-02/ieeg/sub-02_task-ictal_ieeg.edf",
+      "source": "S2_ictal.edf",
+      "md5_zenodo": "4176df1cc938f0882096148a700173da",
+      "sha256": "285e701cbd6615a64f0018a9a4c3e56d180685a0c8795cb1b60ea6c5006b2351",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 42078494,
+      "n_signals": 148,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-02/ieeg/sub-02_task-interictal_ieeg.edf",
+      "source": "S2_inter.edf",
+      "md5_zenodo": "89c3a3db4e8b564a7f9ec3718d82453c",
+      "sha256": "2d828b63951aa98bc952c7ca8d69c93ae0f4160c8289330bb252e53473c9d69a",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 4435251384,
+      "n_signals": 153,
+      "sfreq": 2000.0,
+      "duration_s": 7200.019
+    },
+    {
+      "bids": "sub-03/ieeg/sub-03_task-ictal_ieeg.edf",
+      "source": "S3_ictal.edf",
+      "md5_zenodo": "3c0fe641aefbc7a8acbeb9531d803f14",
+      "sha256": "f04e02b5331205f7e6f1c3e774c752a1dce69d011ce7913dabc3e6d93b226488",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 42647006,
+      "n_signals": 150,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-03/ieeg/sub-03_task-interictal_ieeg.edf",
+      "source": "S3_inter.edf",
+      "md5_zenodo": "56b7a7d41a0ece3548a8dced821e6c16",
+      "sha256": "d9cc41700a54c24d21b48011685c4783e52404ed86d56619abc255398ebd1104",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 4492877632,
+      "n_signals": 155,
+      "sfreq": 2000.0,
+      "duration_s": 7200.06
+    },
+    {
+      "bids": "sub-04/ieeg/sub-04_task-ictal_ieeg.edf",
+      "source": "S4_ictal.edf",
+      "md5_zenodo": "a772ee0d6c2dd65f1c2dd9d9dd147fbc",
+      "sha256": "c6bf62a39c0ab9e5a90ddedd28c4dbff46379d313ce9cace456a7f4c0ae55fc5",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 29002718,
+      "n_signals": 102,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-04/ieeg/sub-04_task-interictal_ieeg.edf",
+      "source": "S4_inter.edf",
+      "md5_zenodo": "45d67ce7957791cfae805b551c67a155",
+      "sha256": "7456671c58c75ce880e243c196e537ceb73c0f8c621cefcff5c68aeb04436bb2",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 3110475424,
+      "n_signals": 107,
+      "sfreq": 2000.0000000000002,
+      "duration_s": 7200.11
+    },
+    {
+      "bids": "sub-05/ieeg/sub-05_task-ictal_ieeg.edf",
+      "source": "S5_ictal.edf",
+      "md5_zenodo": "2b0ca9ee042fcd65cd2623aa2899db70",
+      "sha256": "bb87cb5c5dbef5fbd88ff32402e7a20d8ae3195b3890902fe852daf4ab1dd5a7",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 40372958,
+      "n_signals": 142,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-05/ieeg/sub-05_task-interictal_ieeg.edf",
+      "source": "S5_inter.edf",
+      "md5_zenodo": "411b4ccf299236d92887a7139e213207",
+      "sha256": "3126b03fc8049f8a23f3381bf815a80a0c969e18bd0a375db23b3a539a99aabe",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 4262486096,
+      "n_signals": 147,
+      "sfreq": 2000.0,
+      "duration_s": 7200.080999999999
+    },
+    {
+      "bids": "sub-06/ieeg/sub-06_task-ictal_ieeg.edf",
+      "source": "S6_ictal.edf",
+      "md5_zenodo": "05c02e257b2641ab87c8c9f807d1ade1",
+      "sha256": "4ce608578e7bdf64d8dcbe7a9fd11ad502c71c849819465ab18372283188629e",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 44921054,
+      "n_signals": 158,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-06/ieeg/sub-06_task-interictal_ieeg.edf",
+      "source": "S6_inter.edf",
+      "md5_zenodo": "2e7095f693112e5a2e4f111e73ced3d3",
+      "sha256": "cb70785d8cb27af925a53185b44c14881869d31bb0c656d579a679dc8b02a890",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 4723282256,
+      "n_signals": 163,
+      "sfreq": 2000.0,
+      "duration_s": 7200.061
+    },
+    {
+      "bids": "sub-07/ieeg/sub-07_task-ictal_ieeg.edf",
+      "source": "S7_ictal.edf",
+      "md5_zenodo": "61057ebb01d71479bcfe0071d81348d8",
+      "sha256": "06496a09af1f7c0a02427e43c77d1286679ea80d6720668a6583529fd112ed33",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 29556462,
+      "n_signals": 104,
+      "sfreq": 1999.0,
+      "duration_s": 71.0
+    },
+    {
+      "bids": "sub-07/ieeg/sub-07_task-interictal_ieeg.edf",
+      "source": "S7_inter.edf",
+      "md5_zenodo": "4e37abecce899921ed2a8bc7eff97cca",
+      "sha256": "872ffe59c24ea879c03a32432e17994b72dfe39c1379a663d52c058547021aa1",
+      "annotation_texts_redacted": 1,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+D",
+      "bytes": 3168034356,
+      "n_signals": 109,
+      "sfreq": 1999.9999999999998,
+      "duration_s": 7200.013500000001
+    },
+    {
+      "bids": "sub-08/ieeg/sub-08_task-ictal_ieeg.edf",
+      "source": "S8_ictal.edf",
+      "md5_zenodo": "6754e1f6e4a0fc654acf4ac4f1f83cb1",
+      "sha256": "484c258bf76d6d8d8bfda0c9f14b448758719c37db156a5b9ae3d571c8d6464d",
+      "annotation_texts_redacted": 0,
+      "signal_bytes_unchanged": true,
+      "edf_type": "EDF+C",
+      "bytes": 34972094,
+      "n_signals": 123,
+      "sfreq": 2000.0,
+      "duration_s": 71.0
+    }
+  ],
+  "not_redistributed": [
+    {
+      "file": "S1_mri.nii.gz",
+      "md5_zenodo": "2ec344a51e166c657d9e0f3b8cbe178a",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S1_ct.nii.gz",
+      "md5_zenodo": "7886e23535cb9400914880b29d41b96a",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S2_mri.nii.gz",
+      "md5_zenodo": "91d6e4eacbdfece93e9f8a0790082f79",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S2_ct.nii.gz",
+      "md5_zenodo": "cbd1e47fbacc0c77fcf7b24060dca2bd",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S3_mri.nii.gz",
+      "md5_zenodo": "9f362e26cbcb39f979b84dc4f76358ec",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S3_ct.nii.gz",
+      "md5_zenodo": "6653f10e533f28dcac6ab6f0649f8422",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S4_mri.nii.gz",
+      "md5_zenodo": "47b0211bf92ba3f201729db92d21309c",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S4_ct.nii.gz",
+      "md5_zenodo": "ac14150249cf68040d2893ae3c8616d7",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S5_mri.nii.gz",
+      "md5_zenodo": "a3eadea404d42d6fd4cae0a22c285018",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S5_ct.nii.gz",
+      "md5_zenodo": "7acf3cc12a07d23d7cc2878a5173fbfc",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S6_mri.nii.gz",
+      "md5_zenodo": "0a5c58a33f69342353b28c756b3250b8",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S6_ct.nii.gz",
+      "md5_zenodo": "933bce02f0f64187eb9d83f5cd7daadd",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S7_mri.nii.gz",
+      "md5_zenodo": "2c20145d8d88c1d38e691a7399656003",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S7_ct.nii.gz",
+      "md5_zenodo": "89156644f455c7eabafcc8d3f31b4400",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S8_mri.nii.gz",
+      "md5_zenodo": "242c470d3785fc40c2d4d8fd4e79f4ca",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "S8_ct.nii.gz",
+      "md5_zenodo": "cf9885139f84852bf7d2ff740768d6c7",
+      "reason": "face reconstructable from the volume (render check); available from the source record"
+    }
+  ],
+  "record_5494990_comparison": {
+    "S1_ct.nii.gz": "not in 5675459 / different",
+    "S1_ictal.edf": "identical md5 in 5675459",
+    "S1_interictal.edf": "not in 5675459 / different",
+    "S1_mri.nii.gz": "not in 5675459 / different",
+    "S2_ct.nii.gz": "not in 5675459 / different",
+    "S2_ictal.edf": "identical md5 in 5675459",
+    "S2_interictal.edf": "not in 5675459 / different",
+    "S2_mri.nii.gz": "not in 5675459 / different",
+    "S3_ct.nii.gz": "not in 5675459 / different",
+    "S3_ictal.edf": "identical md5 in 5675459",
+    "S3_interictal.edf": "not in 5675459 / different",
+    "S3_mri.nii.gz": "not in 5675459 / different",
+    "S4_ct.nii.gz": "not in 5675459 / different",
+    "S4_ictal.edf": "identical md5 in 5675459",
+    "S4_interictal.edf": "not in 5675459 / different",
+    "S4_mri.nii.gz": "not in 5675459 / different",
+    "S5_ct.nii.gz": "not in 5675459 / different",
+    "S5_ictal.edf": "identical md5 in 5675459",
+    "S5_interictal.edf": "not in 5675459 / different",
+    "S5_mri.nii.gz": "not in 5675459 / different"
+  }
+}

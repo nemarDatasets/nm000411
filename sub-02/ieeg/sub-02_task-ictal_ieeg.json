@@ -1,0 +1,30 @@
+{
+  "TaskName": "ictal",
+  "TaskDescription": "Ictal SEEG clip: a seizure-containing segment exported by the authors for the BrainQuake ictal module (Epileptogenicity Index). Seizure onset time within the clip is not annotated in the release.",
+  "InstitutionName": "Epilepsy Center, Tsinghua Yuquan Hospital",
+  "InstitutionAddress": "Beijing, China",
+  "SamplingFrequency": 2000.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": {
+    "EDFPrefilterField": {
+      "Description": "EDF header prefilter field as released",
+      "Value": [
+        "0.0Hz - 1000.0"
+      ]
+    }
+  },
+  "iEEGReference": "n/a (not documented in the release)",
+  "iEEGPlacementScheme": "Clinically determined stereo-EEG depth electrodes for pre-surgical evaluation of drug-resistant epilepsy",
+  "SEEGChannelCount": 148,
+  "ECOGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 71.0,
+  "ElectricalStimulation": false,
+  "SourceFile": "S2_ictal.edf (Zenodo 5675459); copied byte-for-byte"
+}

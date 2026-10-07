@@ -1,0 +1,2 @@
+1.0.0 2026-10-08
+  - Initial iEEG-BIDS packaging of Zenodo record 5675459 (patient names removed from EDF+ annotations of the interictal files; signals unchanged; MRI/CT not redistributed).

@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates in the release (the BrainQuake electrode module derives them from the post-implant CT, which is not redistributed here). Contact names as in the EDF files."
+}

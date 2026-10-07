@@ -1,0 +1,205 @@
+name	x	y	z	size
+A1	n/a	n/a	n/a	n/a
+A10	n/a	n/a	n/a	n/a
+A11	n/a	n/a	n/a	n/a
+A12	n/a	n/a	n/a	n/a
+A13	n/a	n/a	n/a	n/a
+A14	n/a	n/a	n/a	n/a
+A2	n/a	n/a	n/a	n/a
+A3	n/a	n/a	n/a	n/a
+A4	n/a	n/a	n/a	n/a
+A5	n/a	n/a	n/a	n/a
+A6	n/a	n/a	n/a	n/a
+A7	n/a	n/a	n/a	n/a
+A8	n/a	n/a	n/a	n/a
+A9	n/a	n/a	n/a	n/a
+B1	n/a	n/a	n/a	n/a
+B10	n/a	n/a	n/a	n/a
+B11	n/a	n/a	n/a	n/a
+B12	n/a	n/a	n/a	n/a
+B13	n/a	n/a	n/a	n/a
+B14	n/a	n/a	n/a	n/a
+B2	n/a	n/a	n/a	n/a
+B3	n/a	n/a	n/a	n/a
+B4	n/a	n/a	n/a	n/a
+B5	n/a	n/a	n/a	n/a
+B6	n/a	n/a	n/a	n/a
+B7	n/a	n/a	n/a	n/a
+B8	n/a	n/a	n/a	n/a
+B9	n/a	n/a	n/a	n/a
+C1	n/a	n/a	n/a	n/a
+C10	n/a	n/a	n/a	n/a
+C11	n/a	n/a	n/a	n/a
+C12	n/a	n/a	n/a	n/a
+C2	n/a	n/a	n/a	n/a
+C3	n/a	n/a	n/a	n/a
+C4	n/a	n/a	n/a	n/a
+C5	n/a	n/a	n/a	n/a
+C6	n/a	n/a	n/a	n/a
+C7	n/a	n/a	n/a	n/a
+C8	n/a	n/a	n/a	n/a
+C9	n/a	n/a	n/a	n/a
+D1	n/a	n/a	n/a	n/a
+D10	n/a	n/a	n/a	n/a
+D11	n/a	n/a	n/a	n/a
+D12	n/a	n/a	n/a	n/a
+D13	n/a	n/a	n/a	n/a
+D14	n/a	n/a	n/a	n/a
+D15	n/a	n/a	n/a	n/a
+D16	n/a	n/a	n/a	n/a
+D2	n/a	n/a	n/a	n/a
+D3	n/a	n/a	n/a	n/a
+D4	n/a	n/a	n/a	n/a
+D5	n/a	n/a	n/a	n/a
+D6	n/a	n/a	n/a	n/a
+D7	n/a	n/a	n/a	n/a
+D8	n/a	n/a	n/a	n/a
+D9	n/a	n/a	n/a	n/a
+E1	n/a	n/a	n/a	n/a
+E10	n/a	n/a	n/a	n/a
+E11	n/a	n/a	n/a	n/a
+E12	n/a	n/a	n/a	n/a
+E2	n/a	n/a	n/a	n/a
+E3	n/a	n/a	n/a	n/a
+E4	n/a	n/a	n/a	n/a
+E5	n/a	n/a	n/a	n/a
+E6	n/a	n/a	n/a	n/a
+E7	n/a	n/a	n/a	n/a
+E8	n/a	n/a	n/a	n/a
+E9	n/a	n/a	n/a	n/a
+EEG A1-Ref	n/a	n/a	n/a	n/a
+EEG A2-Ref	n/a	n/a	n/a	n/a
+EEG C1-Ref	n/a	n/a	n/a	n/a
+EEG C2-Ref	n/a	n/a	n/a	n/a
+EEG C3-Ref	n/a	n/a	n/a	n/a
+EEG C4-Ref	n/a	n/a	n/a	n/a
+EEG C5-Ref	n/a	n/a	n/a	n/a
+EEG C6-Ref	n/a	n/a	n/a	n/a
+EEG F1-Ref	n/a	n/a	n/a	n/a
+EEG F10-Ref	n/a	n/a	n/a	n/a
+EEG F2-Ref	n/a	n/a	n/a	n/a
+EEG F3-Ref	n/a	n/a	n/a	n/a
+EEG F4-Ref	n/a	n/a	n/a	n/a
+EEG F5-Ref	n/a	n/a	n/a	n/a
+EEG F6-Ref	n/a	n/a	n/a	n/a
+EEG F7-Ref	n/a	n/a	n/a	n/a
+EEG F8-Ref	n/a	n/a	n/a	n/a
+EEG F9-Ref	n/a	n/a	n/a	n/a
+F1	n/a	n/a	n/a	n/a
+F10	n/a	n/a	n/a	n/a
+F11	n/a	n/a	n/a	n/a
+F12	n/a	n/a	n/a	n/a
+F2	n/a	n/a	n/a	n/a
+F3	n/a	n/a	n/a	n/a
+F4	n/a	n/a	n/a	n/a
+F5	n/a	n/a	n/a	n/a
+F6	n/a	n/a	n/a	n/a
+F7	n/a	n/a	n/a	n/a
+F8	n/a	n/a	n/a	n/a
+F9	n/a	n/a	n/a	n/a
+G1	n/a	n/a	n/a	n/a
+G10	n/a	n/a	n/a	n/a
+G11	n/a	n/a	n/a	n/a
+G12	n/a	n/a	n/a	n/a
+G2	n/a	n/a	n/a	n/a
+G3	n/a	n/a	n/a	n/a
+G4	n/a	n/a	n/a	n/a
+G5	n/a	n/a	n/a	n/a
+G6	n/a	n/a	n/a	n/a
+G7	n/a	n/a	n/a	n/a
+G8	n/a	n/a	n/a	n/a
+G9	n/a	n/a	n/a	n/a
+H1	n/a	n/a	n/a	n/a
+H10	n/a	n/a	n/a	n/a
+H2	n/a	n/a	n/a	n/a
+H3	n/a	n/a	n/a	n/a
+H4	n/a	n/a	n/a	n/a
+H5	n/a	n/a	n/a	n/a
+H6	n/a	n/a	n/a	n/a
+H7	n/a	n/a	n/a	n/a
+H8	n/a	n/a	n/a	n/a
+H9	n/a	n/a	n/a	n/a
+POL A10	n/a	n/a	n/a	n/a
+POL A11	n/a	n/a	n/a	n/a
+POL A12	n/a	n/a	n/a	n/a
+POL A13	n/a	n/a	n/a	n/a
+POL A14	n/a	n/a	n/a	n/a
+POL A3	n/a	n/a	n/a	n/a
+POL A4	n/a	n/a	n/a	n/a
+POL A5	n/a	n/a	n/a	n/a
+POL A6	n/a	n/a	n/a	n/a
+POL A7	n/a	n/a	n/a	n/a
+POL A8	n/a	n/a	n/a	n/a
+POL A9	n/a	n/a	n/a	n/a
+POL B1	n/a	n/a	n/a	n/a
+POL B10	n/a	n/a	n/a	n/a
+POL B11	n/a	n/a	n/a	n/a
+POL B12	n/a	n/a	n/a	n/a
+POL B13	n/a	n/a	n/a	n/a
+POL B14	n/a	n/a	n/a	n/a
+POL B2	n/a	n/a	n/a	n/a
+POL B3	n/a	n/a	n/a	n/a
+POL B4	n/a	n/a	n/a	n/a
+POL B5	n/a	n/a	n/a	n/a
+POL B6	n/a	n/a	n/a	n/a
+POL B7	n/a	n/a	n/a	n/a
+POL B8	n/a	n/a	n/a	n/a
+POL B9	n/a	n/a	n/a	n/a
+POL C10	n/a	n/a	n/a	n/a
+POL C11	n/a	n/a	n/a	n/a
+POL C12	n/a	n/a	n/a	n/a
+POL C7	n/a	n/a	n/a	n/a
+POL C8	n/a	n/a	n/a	n/a
+POL C9	n/a	n/a	n/a	n/a
+POL D1	n/a	n/a	n/a	n/a
+POL D10	n/a	n/a	n/a	n/a
+POL D11	n/a	n/a	n/a	n/a
+POL D12	n/a	n/a	n/a	n/a
+POL D13	n/a	n/a	n/a	n/a
+POL D14	n/a	n/a	n/a	n/a
+POL D15	n/a	n/a	n/a	n/a
+POL D16	n/a	n/a	n/a	n/a
+POL D2	n/a	n/a	n/a	n/a
+POL D3	n/a	n/a	n/a	n/a
+POL D4	n/a	n/a	n/a	n/a
+POL D5	n/a	n/a	n/a	n/a
+POL D6	n/a	n/a	n/a	n/a
+POL D7	n/a	n/a	n/a	n/a
+POL D8	n/a	n/a	n/a	n/a
+POL D9	n/a	n/a	n/a	n/a
+POL E1	n/a	n/a	n/a	n/a
+POL E10	n/a	n/a	n/a	n/a
+POL E11	n/a	n/a	n/a	n/a
+POL E12	n/a	n/a	n/a	n/a
+POL E2	n/a	n/a	n/a	n/a
+POL E3	n/a	n/a	n/a	n/a
+POL E4	n/a	n/a	n/a	n/a
+POL E5	n/a	n/a	n/a	n/a
+POL E6	n/a	n/a	n/a	n/a
+POL E7	n/a	n/a	n/a	n/a
+POL E8	n/a	n/a	n/a	n/a
+POL E9	n/a	n/a	n/a	n/a
+POL F11	n/a	n/a	n/a	n/a
+POL F12	n/a	n/a	n/a	n/a
+POL G1	n/a	n/a	n/a	n/a
+POL G10	n/a	n/a	n/a	n/a
+POL G11	n/a	n/a	n/a	n/a
+POL G12	n/a	n/a	n/a	n/a
+POL G2	n/a	n/a	n/a	n/a
+POL G3	n/a	n/a	n/a	n/a
+POL G4	n/a	n/a	n/a	n/a
+POL G5	n/a	n/a	n/a	n/a
+POL G6	n/a	n/a	n/a	n/a
+POL G7	n/a	n/a	n/a	n/a
+POL G8	n/a	n/a	n/a	n/a
+POL G9	n/a	n/a	n/a	n/a
+POL H1	n/a	n/a	n/a	n/a
+POL H10	n/a	n/a	n/a	n/a
+POL H2	n/a	n/a	n/a	n/a
+POL H3	n/a	n/a	n/a	n/a
+POL H4	n/a	n/a	n/a	n/a
+POL H5	n/a	n/a	n/a	n/a
+POL H6	n/a	n/a	n/a	n/a
+POL H7	n/a	n/a	n/a	n/a
+POL H8	n/a	n/a	n/a	n/a
+POL H9	n/a	n/a	n/a	n/a

@@ -1,0 +1,18 @@
+{
+  "source_id": {
+    "Description": "Patient label in the release file names (S1..S8)"
+  },
+  "age": {
+    "Description": "Age at recording; not reported in the release or paper",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not reported in the release or paper"
+  },
+  "group": {
+    "Description": "Participant group",
+    "Levels": {
+      "epilepsy_patient": "drug-resistant epilepsy patient implanted with SEEG electrodes (Tsinghua Yuquan Hospital)"
+    }
+  }
+}

@@ -3,11 +3,17 @@
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
-  "Authors": ["Kang Wang"],
+  "Authors": [
+    "Kang Wang"
+  ],
   "Acknowledgements": "Data released by Kang Wang (Department of Biomedical Engineering, School of Medicine, Tsinghua University) as Zenodo record 10.5281/zenodo.5675459. Data were collected by Haixiang Wang and Wenjing Zhou (Epilepsy Center, Tsinghua Yuquan Hospital) according to Cai et al. (2022). Reorganised into iEEG-BIDS without signal processing for NEMAR.",
   "HowToAcknowledge": "Please cite Cai F, Wang K, Zhao T, Wang H, Zhou W, Hong B (2022) BrainQuake: An Open-Source Python Toolbox for the Stereoelectroencephalography Spatiotemporal Analysis. Front. Neuroinform. 15:773890, doi:10.3389/fninf.2021.773890, and the data record doi:10.5281/zenodo.5675459.",
-  "Funding": ["National Key R&D Program of China (2017YFA0205904 to Bo Hong)"],
-  "EthicsApprovals": ["Ethics Committee of Tsinghua Yuquan Hospital, Beijing, China (as stated in Cai et al. 2022)"],
+  "Funding": [
+    "National Key R&D Program of China (2017YFA0205904 to Bo Hong)"
+  ],
+  "EthicsApprovals": [
+    "Ethics Committee of Tsinghua Yuquan Hospital, Beijing, China (as stated in Cai et al. 2022)"
+  ],
   "ReferencesAndLinks": [
     "https://doi.org/10.3389/fninf.2021.773890",
     "https://doi.org/10.5281/zenodo.5675459",
@@ -15,6 +21,19 @@
     "https://github.com/HongLabTHU/Brainquake",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8782204/"
   ],
-  "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.5675459", "URL": "https://zenodo.org/records/5675459", "Version": "published 2021-11-11"}],
-  "GeneratedBy": [{"Name": "b3w1_convert_brainquake.py (ieeg-nemar-20261005 campaign, batch 3)", "Description": "File copy and BIDS sidecars only; EDF files are byte-identical to the release."}]
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.5675459",
+      "URL": "https://zenodo.org/records/5675459",
+      "Version": "published 2021-11-11"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b3w1_convert_brainquake.py (ieeg-nemar-20261005 campaign, batch 3)",
+      "Description": "File copy and BIDS sidecars only; EDF files are byte-identical to the release."
+    }
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000411",
+  "Version": "1.0.0"
 }

@@ -1,61 +1,14 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "BrainQuake example SEEG data: ictal and interictal stereo-EEG from 8 epilepsy patients (Tsinghua Yuquan Hospital)",
+  "description": "Stereo-EEG (SEEG) recordings from eight patients with drug-resistant epilepsy, recorded at the Epilepsy Center of Tsinghua Yuquan Hospital during pre-surgical monitoring. The dataset contains a 71-second ictal clip per patient and an interictal segment of up to about 2 hours per patient, sampled at 2000 Hz. These are the example data for the BrainQuake toolbox (Cai et al., 2022, Front. Neuroinform., doi:10.3389/fninf.2021.773890; a software paper cited as the toolbox reference), supporting epileptogenicity index and high-frequency event analyses. They are reorganised into iEEG-BIDS without signal processing.",
+  "methods_description": "SEEG depth electrode recordings were acquired at 2000 Hz during about two weeks of pre-surgical monitoring. Ictal clips (71 s) and interictal segments were exported as EDF/EDF+D files. Pre-implant T1 MRI and post-implant CT were acquired but are not redistributed. Interictal EDF annotations containing patient names were overwritten, and the signal data were left unchanged.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Kang Wang": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.5675459",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "10.3389/fninf.2021.773890",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "10.5281/zenodo.5494990",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000411",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000411",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Key R&D Program of China",
-      "award_number": "2017YFA0205904"
-    }
-  ],
-  "title": "BrainQuake example SEEG data: ictal and interictal stereo-EEG from 8 epilepsy patients (Tsinghua Yuquan Hospital)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "26.73 GB (16 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "Stereo-EEG recordings from eight patients with drug-resistant epilepsy, collected during pre-surgical monitoring at the Epilepsy Center of Tsinghua Yuquan Hospital. The dataset contains 71-second ictal clips and interictal segments of up to about 2 hours per patient, sampled at 2000 Hz. It was released as example data for the BrainQuake toolbox, supporting epileptogenicity index and high-frequency event analyses. The data are reorganised into iEEG-BIDS without signal processing.",
-  "methods_description": "SEEG depth-electrode recordings were acquired at 2000 Hz during about two weeks of pre-surgical monitoring. Ictal clips (71 s) were exported for epileptogenicity index analysis, and interictal segments were exported for high-frequency oscillation detection. Interictal files are discontinuous EDF+D with clinical annotations. Files were converted to BIDS with no signal changes, and patient names in EDF+ annotations were masked.",
   "keywords": [
     {
       "term": "stereo-EEG"
@@ -74,7 +27,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
     },
     {
-      "term": "seizure"
+      "term": "seizure onset zone"
     },
     {
       "term": "interictal"
@@ -83,5 +36,53 @@
       "term": "high-frequency oscillations"
     }
   ],
-  "source_hash": "0bc4ff456bdd7b56cd14a54ae1e0f281c630dbfc4b98b79fccccf641b634e498"
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.5675459",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.3389/fninf.2021.773890",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.5281/zenodo.5494990",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000411",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000411",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Key R&D Program of China",
+      "award_number": "2017YFA0205904"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "26.73 GB (16 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "fcf9ef668960915b53bba6cd55c49795d7797015789ea9abd64d6c671f79b881"
 }

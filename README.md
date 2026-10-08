@@ -53,3 +53,13 @@ contact names with `n/a` positions).
 ## Licence
 
 CC-BY-4.0, as the source record. Please cite the paper and the Zenodo record.
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Electrode types.** Depth (SEEG) electrodes; the localisation validation reports an adjacent contact distance of 3.5 mm (95% within 3.5 +/- 1 mm) (doi:10.3389/fninf.2021.773890, Results 'Electrode localization validation'). Channel names are shaft letter + contact number (e.g. 'A1'..'K16'; S2 also has primed shafts A'..E').
+
+**Localisation method.** Each subject has a preoperative T1 MRI (S*_mri.nii.gz) and a postoperative CT (S*_ct.nii.gz) (https://zenodo.org/records/5494990). The BrainQuake electrode module registers the CT to the FreeSurfer 'orig' image with FSL flirt, segments contacts by thresholding/clustering and a centre-of-mass search and labels them anatomically (doi:10.3389/fninf.2021.773890, Methods). No contact coordinates or labels were deposited.
+
+**Clinical annotations.** The paper validates SOZ predictions against clinician-selected SOZ contacts for five patients (Figs. 8-9), but the per-contact SOZ lists are not published.

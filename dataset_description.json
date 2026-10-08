@@ -12,7 +12,8 @@
     "https://doi.org/10.3389/fninf.2021.773890",
     "https://doi.org/10.5281/zenodo.5675459",
     "https://doi.org/10.5281/zenodo.5494990",
-    "https://github.com/HongLabTHU/Brainquake"
+    "https://github.com/HongLabTHU/Brainquake",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8782204/"
   ],
   "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.5675459", "URL": "https://zenodo.org/records/5675459", "Version": "published 2021-11-11"}],
   "GeneratedBy": [{"Name": "b3w1_convert_brainquake.py (ieeg-nemar-20261005 campaign, batch 3)", "Description": "File copy and BIDS sidecars only; EDF files are byte-identical to the release."}]

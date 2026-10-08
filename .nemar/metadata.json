@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BrainQuake example SEEG data: ictal and interictal stereo-EEG from 8 epilepsy patients (Tsinghua Yuquan Hospital)",
-  "description": "Stereo-EEG (SEEG) recordings from eight patients with drug-resistant epilepsy, recorded at the Epilepsy Center of Tsinghua Yuquan Hospital during pre-surgical monitoring. The dataset contains a 71-second ictal clip per patient and an interictal segment of up to about 2 hours per patient, sampled at 2000 Hz. These are the example data for the BrainQuake toolbox (Cai et al., 2022, Front. Neuroinform., doi:10.3389/fninf.2021.773890; a software paper cited as the toolbox reference), supporting epileptogenicity index and high-frequency event analyses. They are reorganised into iEEG-BIDS without signal processing.",
-  "methods_description": "SEEG depth electrode recordings were acquired at 2000 Hz during about two weeks of pre-surgical monitoring. Ictal clips (71 s) and interictal segments were exported as EDF/EDF+D files. Pre-implant T1 MRI and post-implant CT were acquired but are not redistributed. Interictal EDF annotations containing patient names were overwritten, and the signal data were left unchanged.",
+  "description": "This dataset contains ictal and interictal stereo-EEG (SEEG) recordings from 8 patients with drug-resistant epilepsy, recorded at the Epilepsy Center of Tsinghua Yuquan Hospital. It provides the example data for the BrainQuake toolbox, with a 71-second seizure clip per patient for epileptogenicity index analysis and interictal segments of up to about 2 hours for high-frequency event detection. The recordings are reorganised into iEEG-BIDS without signal processing. MRI and CT volumes are not redistributed.",
+  "methods_description": "SEEG depth electrode recordings were sampled at 2000 Hz during about two weeks of pre-surgical monitoring. Pre-implant MRI and post-implant CT were acquired for electrode localisation. Ictal EDF files are byte-identical to the source release. Interictal EDF+D files had only the patient name in the first annotation overwritten.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -14,7 +14,7 @@
       "term": "stereo-EEG"
     },
     {
-      "term": "intracranial EEG"
+      "term": "SEEG"
     },
     {
       "term": "Epilepsy",
@@ -27,13 +27,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
     },
     {
-      "term": "seizure onset zone"
+      "term": "ictal"
     },
     {
       "term": "interictal"
     },
     {
-      "term": "high-frequency oscillations"
+      "term": "intracranial EEG"
     }
   ],
   "related_identifiers": [
@@ -45,7 +45,7 @@
     {
       "identifier": "10.3389/fninf.2021.773890",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.5281/zenodo.5494990",
@@ -84,5 +84,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "fcf9ef668960915b53bba6cd55c49795d7797015789ea9abd64d6c671f79b881"
+  "source_hash": "3232ca9426eb691e5e0d67d92d560154ebfb448d8607d5c73620a659e5ba2491"
 }

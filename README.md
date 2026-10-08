@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000411-blue)](https://doi.org/10.82901/nemar.nm000411)
+
 # BrainQuake example SEEG data (Tsinghua Yuquan Hospital)
 
 Stereo-EEG (SEEG) recordings from 8 patients with drug-resistant epilepsy, released by Kang Wang

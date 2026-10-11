@@ -1,0 +1,16 @@
+release_path	bids_path	annex_key	content	note
+sourcedata/zenodo-5675459/S1_ictal.edf	sub-01/ieeg/sub-01_task-ictal_ieeg.edf	SHA256E-s39804446--44b44487b69641efd5605cf09074ff43b66ecd217f6b571b1536ba22fb59e197.edf	identical	
+sourcedata/zenodo-5675459/S1_inter.edf	sub-01/ieeg/sub-01_task-interictal_ieeg.edf	SHA256E-s4204872672--2369b9ec4f0b763824fd212bf25b4756a465a8d3f234c870a12ad062a10b851b.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S2_ictal.edf	sub-02/ieeg/sub-02_task-ictal_ieeg.edf	SHA256E-s42078494--285e701cbd6615a64f0018a9a4c3e56d180685a0c8795cb1b60ea6c5006b2351.edf	identical	
+sourcedata/zenodo-5675459/S2_inter.edf	sub-02/ieeg/sub-02_task-interictal_ieeg.edf	SHA256E-s4435251384--2d828b63951aa98bc952c7ca8d69c93ae0f4160c8289330bb252e53473c9d69a.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S3_ictal.edf	sub-03/ieeg/sub-03_task-ictal_ieeg.edf	SHA256E-s42647006--f04e02b5331205f7e6f1c3e774c752a1dce69d011ce7913dabc3e6d93b226488.edf	identical	
+sourcedata/zenodo-5675459/S3_inter.edf	sub-03/ieeg/sub-03_task-interictal_ieeg.edf	SHA256E-s4492877632--d9cc41700a54c24d21b48011685c4783e52404ed86d56619abc255398ebd1104.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S4_ictal.edf	sub-04/ieeg/sub-04_task-ictal_ieeg.edf	SHA256E-s29002718--c6bf62a39c0ab9e5a90ddedd28c4dbff46379d313ce9cace456a7f4c0ae55fc5.edf	identical	
+sourcedata/zenodo-5675459/S4_inter.edf	sub-04/ieeg/sub-04_task-interictal_ieeg.edf	SHA256E-s3110475424--7456671c58c75ce880e243c196e537ceb73c0f8c621cefcff5c68aeb04436bb2.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S5_ictal.edf	sub-05/ieeg/sub-05_task-ictal_ieeg.edf	SHA256E-s40372958--bb87cb5c5dbef5fbd88ff32402e7a20d8ae3195b3890902fe852daf4ab1dd5a7.edf	identical	
+sourcedata/zenodo-5675459/S5_inter.edf	sub-05/ieeg/sub-05_task-interictal_ieeg.edf	SHA256E-s4262486096--3126b03fc8049f8a23f3381bf815a80a0c969e18bd0a375db23b3a539a99aabe.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S6_ictal.edf	sub-06/ieeg/sub-06_task-ictal_ieeg.edf	SHA256E-s44921054--4ce608578e7bdf64d8dcbe7a9fd11ad502c71c849819465ab18372283188629e.edf	identical	
+sourcedata/zenodo-5675459/S6_inter.edf	sub-06/ieeg/sub-06_task-interictal_ieeg.edf	SHA256E-s4723282256--cb70785d8cb27af925a53185b44c14881869d31bb0c656d579a679dc8b02a890.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S7_ictal.edf	sub-07/ieeg/sub-07_task-ictal_ieeg.edf	SHA256E-s29556462--06496a09af1f7c0a02427e43c77d1286679ea80d6720668a6583529fd112ed33.edf	identical	
+sourcedata/zenodo-5675459/S7_inter.edf	sub-07/ieeg/sub-07_task-interictal_ieeg.edf	SHA256E-s3168034356--872ffe59c24ea879c03a32432e17994b72dfe39c1379a663d52c058547021aa1.edf	scrubbed	patient name in the first EDF+ annotation overwritten with X (same length)
+sourcedata/zenodo-5675459/S8_ictal.edf	sub-08/ieeg/sub-08_task-ictal_ieeg.edf	SHA256E-s34972094--484c258bf76d6d8d8bfda0c9f14b448758719c37db156a5b9ae3d571c8d6464d.edf	identical	

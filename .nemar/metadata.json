@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Cai-2022-brainquake-10.3389/fninf.2021.773890",
+  "title": "BrainQuake example SEEG data: ictal and interictal stereo-EEG from 8 epilepsy patients (Tsinghua Yuquan Hospital)",
   "description": "Stereo-EEG (SEEG) recordings from eight patients with drug-resistant epilepsy, recorded at the Epilepsy Center of Tsinghua Yuquan Hospital during pre-surgical monitoring. The dataset provides the example data for the BrainQuake toolbox: a 71-second ictal clip per patient for epileptogenicity index analysis, and interictal segments of up to about 2 hours for high-frequency event detection. The data were sampled at 2000 Hz and organized in iEEG-BIDS without signal processing. Imaging volumes are not redistributed.",
   "methods_description": "SEEG depth electrode recordings were acquired at 2000 Hz during about two weeks of pre-surgical monitoring. MRI was acquired before implantation and CT after implantation. Ictal clips and interictal segments were exported as EDF/EDF+D files. EDF+ clinical annotations are listed in the events files.",
   "license": "CC-BY-4.0",
@@ -82,5 +82,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "ded1d1aba3a069fd842faa50f33e40d4ad2515edf8453be63f483827904d6fc9"
+  "source_hash": "6016412e26605ec4bfc46d92605365c5b45276f60a7b2a203b957f65846a7ae3"
 }

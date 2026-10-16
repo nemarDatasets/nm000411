@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "BrainQuake example SEEG data: ictal and interictal stereo-EEG from 8 epilepsy patients (Tsinghua Yuquan Hospital)",
-  "description": "This dataset contains ictal and interictal stereo-EEG (SEEG) recordings from 8 patients with drug-resistant epilepsy, collected at the Epilepsy Center of Tsinghua Yuquan Hospital during pre-surgical monitoring. It is the example dataset of the BrainQuake toolbox for spatiotemporal SEEG analysis. Each patient has a 71-second seizure clip and an interictal segment of up to about 2 hours, sampled at 2000 Hz. The data are organized in iEEG-BIDS without signal processing.",
-  "methods_description": "SEEG depth electrode recordings were acquired at 2000 Hz during about two weeks of pre-surgical monitoring. Pre-implant MRI and post-implant CT were acquired but are not redistributed. Ictal clips were exported for epileptogenicity index analysis and interictal segments for high-frequency event detection. EDF files are unchanged apart from removal of patient names from the EDF+ annotations.",
+  "title": "Cai-2022-brainquake-10.3389/fninf.2021.773890",
+  "description": "Stereo-EEG (SEEG) recordings from eight patients with drug-resistant epilepsy, recorded at the Epilepsy Center of Tsinghua Yuquan Hospital during pre-surgical monitoring. The dataset provides the example data for the BrainQuake toolbox: a 71-second ictal clip per patient for epileptogenicity index analysis, and interictal segments of up to about 2 hours for high-frequency event detection. The data were sampled at 2000 Hz and organized in iEEG-BIDS without signal processing. Imaging volumes are not redistributed.",
+  "methods_description": "SEEG depth electrode recordings were acquired at 2000 Hz during about two weeks of pre-surgical monitoring. MRI was acquired before implantation and CT after implantation. Ictal clips and interictal segments were exported as EDF/EDF+D files. EDF+ clinical annotations are listed in the events files.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -11,10 +11,13 @@
   },
   "keywords": [
     {
-      "term": "stereo-EEG"
+      "term": "stereoelectroencephalography"
     },
     {
-      "term": "intracranial EEG"
+      "term": "SEEG"
+    },
+    {
+      "term": "iEEG"
     },
     {
       "term": "Epilepsy",
@@ -22,12 +25,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "Drug Resistant Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069279"
+      "term": "drug-resistant epilepsy"
     },
     {
-      "term": "seizure onset zone"
+      "term": "epileptogenicity index"
     },
     {
       "term": "high-frequency oscillations"
@@ -81,5 +82,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "3232ca9426eb691e5e0d67d92d560154ebfb448d8607d5c73620a659e5ba2491"
+  "source_hash": "ded1d1aba3a069fd842faa50f33e40d4ad2515edf8453be63f483827904d6fc9"
 }

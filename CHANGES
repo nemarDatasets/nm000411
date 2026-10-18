@@ -1,3 +1,7 @@
+1.0.3 2026-10-19
+  - sub-08 task-ictal: events.tsv (4 EDF+ annotations at 517.96-542.91 s, on another clock than the 71-s clip) moved unchanged to sourcedata/events-removed-2026-10-19/. Signal files unchanged.
+  - README.md: section "sub-08 ictal annotations outside the clip".
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

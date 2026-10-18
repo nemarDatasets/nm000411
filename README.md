@@ -65,3 +65,17 @@ Compiled after the upload from the article, its supplement and the source deposi
 **Localisation method.** Each subject has a preoperative T1 MRI (S*_mri.nii.gz) and a postoperative CT (S*_ct.nii.gz) (https://zenodo.org/records/5494990). The BrainQuake electrode module registers the CT to the FreeSurfer 'orig' image with FSL flirt, segments contacts by thresholding/clustering and a centre-of-mass search and labels them anatomically (doi:10.3389/fninf.2021.773890, Methods). No contact coordinates or labels were deposited.
 
 **Clinical annotations.** The paper validates SOZ predictions against clinician-selected SOZ contacts for five patients (Figs. 8-9), but the per-contact SOZ lists are not published.
+
+## sub-08 ictal annotations outside the clip (corrected 2026-10-19, version 1.0.3)
+
+The EDF+ annotation channel of `sub-08_task-ictal_ieeg.edf` (copied byte-for-byte from the release) holds 4 annotations:
+`+518.000000` and `EEGonset` at 517.959 s, `+543.000000` and `....` at 542.906 s. The file is a 71-s EDF+C clip (71 data
+records of 1 s; the time-keeping annotations run from 0 to 70 s), so these onsets are 447-472 s after its end: they are
+timed on another clock, most likely that of the longer recording the clip was exported from, and the offset of the clip in
+that recording is not in the release (inferred from the record time-keeping; not stated in the release). Up to version
+1.0.2 they were listed in `sub-08_task-ictal_events.tsv` with these onsets, after the end of the data; EDF readers drop them
+(MNE reads no annotation from this file). The file was moved unchanged to `sourcedata/events-removed-2026-10-19/` (same relative path), so
+`sub-08` task-ictal, like the ictal clips of sub-01 to sub-07 (no annotations), has no `events.tsv`. The seizure-onset
+time within the clips therefore remains unannotated, as stated in the `ieeg.json` TaskDescription. The EDF file is unchanged.
+The interictal EDF+D files were checked at the same time: each is one contiguous segment (record time-keeping without gaps,
+first record at 0 s), so their `events.tsv` onsets are on the data time axis and were not changed.

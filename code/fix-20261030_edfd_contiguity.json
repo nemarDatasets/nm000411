@@ -1,0 +1,72 @@
+{
+ "sub-01/ieeg/sub-01_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 68572,
+  "record_duration": 0.105,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ },
+ "sub-02/ieeg/sub-02_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 72362,
+  "record_duration": 0.0995,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ },
+ "sub-03/ieeg/sub-03_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 73470,
+  "record_duration": 0.098,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ },
+ "sub-04/ieeg/sub-04_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 50705,
+  "record_duration": 0.142,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ },
+ "sub-05/ieeg/sub-05_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 69566,
+  "record_duration": 0.1035,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ },
+ "sub-06/ieeg/sub-06_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 77006,
+  "record_duration": 0.0935,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ },
+ "sub-07/ieeg/sub-07_task-interictal_ieeg.edf": {
+  "reserved": "EDF+D",
+  "n_records": 51613,
+  "record_duration": 0.1395,
+  "first_start": 0.0,
+  "max_abs_dev_from_index": 9.094947017729282e-13,
+  "n_gaps": 0,
+  "gaps": [],
+  "n_missing_tal": 0
+ }
+}

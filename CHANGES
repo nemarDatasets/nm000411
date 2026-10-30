@@ -1,3 +1,14 @@
+Unreleased (branch fix-20261030, Oct 2026)
+  - Interictal ieeg.json: RecordingType discontinuous -> continuous (the EDF+D files have contiguous records: time-keeping = record index x duration in all 7); README section; check in code/fix-20261030_edfd_contiguity.json.
+
+1.0.4 2026-10-30
+
+  - Mark contiguous recordings as continuous and fix clip event times
+
+1.0.3 2026-10-19
+  - sub-08 task-ictal: events.tsv (4 EDF+ annotations at 517.96-542.91 s, on another clock than the 71-s clip) moved unchanged to sourcedata/events-removed-2026-10-19/. Signal files unchanged.
+  - README.md: section "sub-08 ictal annotations outside the clip".
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

@@ -23,7 +23,7 @@
   "EMGChannelCount": 2,
   "MiscChannelCount": 2,
   "TriggerChannelCount": 0,
-  "RecordingType": "discontinuous",
+  "RecordingType": "continuous",
   "RecordingDuration": 7200.0599999999995,
   "ElectricalStimulation": false,
   "SourceFile": "S1_inter.edf (Zenodo 5675459); copied; patient name in the EDF+ annotation \"Segment: REC START ...\" overwritten with X characters, all signal bytes unchanged"

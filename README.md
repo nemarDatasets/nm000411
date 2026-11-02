@@ -27,13 +27,19 @@ uses the later, larger record. The MD5 comparison is in `sourcedata/zenodo-56754
   `EEG A1-Ref`, ...), so the same contact can carry different labels in the two tasks. The interictal files also contain
   `POL ECG`, `POL EMG1`, `POL EMG2` (typed ECG/EMG), `POL E` and `POL DC10` (typed MISC; meaning not documented).
   EDF header prefilter field of the ictal clips: `0.0Hz - 1000.0`. Reference and amplifier are not documented.
-- The interictal files are flagged EDF+D (discontinuous) in their headers, but their data records are contiguous (see
-  "EDF+D flag of the interictal files" below), so `RecordingType` is `continuous` (was `discontinuous` up to 1.0.2). EDF+ annotations (clinical marks
+- The interictal files are EDF+D (discontinuous; `RecordingType` = `discontinuous`). EDF+ annotations (clinical marks
   such as `IID`, `EEG Onset`, `SZ5`, `asleep`, and a few Chinese-language notes, kept verbatim) are listed in
   `*_events.tsv`.
 - Per the paper: recordings were made at the Epilepsy Center of Tsinghua Yuquan Hospital (Beijing) during
   about two weeks of pre-surgical monitoring; MRI was acquired before and CT after implantation; the study was
   approved by the hospital's ethics committee.
+
+Updated in version 1.0.4 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
+- The interictal files are flagged EDF+D (discontinuous) in their headers, but their data records are contiguous (see
+  "EDF+D flag of the interictal files" below), so `RecordingType` is `continuous` (was `discontinuous` up to 1.0.2). EDF+ annotations (clinical marks
+  such as `IID`, `EEG Onset`, `SZ5`, `asleep`, and a few Chinese-language notes, kept verbatim) are listed in
+  `*_events.tsv`.
 
 ## Processing
 
@@ -81,7 +87,7 @@ time within the clips therefore remains unannotated, as stated in the `ieeg.json
 The interictal EDF+D files were checked at the same time: each is one contiguous segment (record time-keeping without gaps,
 first record at 0 s), so their `events.tsv` onsets are on the data time axis and were not changed.
 
-## EDF+D flag of the interictal files (fix-20261030, Oct 2026)
+## EDF+D flag of the interictal files (version 1.0.4, Oct 2026)
 
 The 7 interictal EDF files (sub-01 to sub-07; byte-identical to the release apart from the name scrub) carry the EDF+D
 (discontinuous) flag in the header reserved field, but they are not discontinuous: in every file the time-keeping
